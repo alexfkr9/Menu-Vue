@@ -10,7 +10,7 @@
   </head>
   <body>    
     <div id="app">      
-      <div class="container-fluid">
+      <div class="container">
             <div class="head_menu">
             <h4 class="head-color">Добро пожаловать</h4>
             <h4 class="head-color"> в наше кафе </h4>
@@ -21,7 +21,7 @@
               <h2 class="logo head-color">Меню:</h2>  
             </div>
             <div class="col-lg-6">
-              <nav class="navbar">          
+              <nav class="navbar">     
                 <button v-on:click="filter('all')" class="button btn btn-warning blue" v-bind:class="{active: currentTag == 'all'}">Все</button>
                 <button v-on:click="filter('first')" class="button btn btn-warning" v-bind:class="{active: currentTag == 'first'}">Первое</button>
                 <button v-on:click="filter('second')" class="button btn btn-warning" v-bind:class="{active: currentTag == 'second'}">Второе</button>
